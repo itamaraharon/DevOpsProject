@@ -186,7 +186,7 @@ Entry1 = tk.Entry(frame)
 Entry1.place(x=130, y=60, relheight=0.04, relwidth=0.18)
 
 Entry2 = tk.Entry(frame)
-Entry2.place(x=130, y=110, relheight=0.04, relwidth=0.18)
+Entry2.place(x=160, y=110, relheight=0.04, relwidth=0.18)
 
 Entry3 = tk.Entry(frame)
 Entry3.place(x=310, y=60, relheight=0.04, relwidth=0.16)
@@ -196,7 +196,7 @@ btn1 = tk.Button(frame, text="Download", command=lambda: DOWNLOAD_IMAGE())
 btn1.place(x=435, y=60, relheight=0.04, relwidth=0.15)
 
 btn2 = tk.Button(frame, text="run", command=lambda: RUN_CON())
-btn2.place(x=280, y=110, relheight=0.04, relwidth=0.15)
+btn2.place(x=290, y=110, relheight=0.04, relwidth=0.15)
 
 btn3 = tk.Button(frame, text="Delete", command=lambda: REMOVE_IMAGE())
 btn3.place(x=540, y=60, relheight=0.04, relwidth=0.15)
@@ -205,7 +205,7 @@ btn4 = tk.Button(frame, text="Delete", command=lambda: REMOVE_CON())
 btn4.place(x=530, y=110, relheight=0.04, relwidth=0.15)
 
 btn4 = tk.Button(frame, text="Stop", command=lambda: STOP_CON())
-btn4.place(x=405, y=110, relheight=0.04, relwidth=0.15)
+btn4.place(x=410, y=110, relheight=0.04, relwidth=0.15)
 
 btn6 = tk.Button(frame, text='show all images', command=lambda: ALL_IMAGES())
 btn6.place(x=460, y=230, relheight=0.08, relwidth=0.25)
